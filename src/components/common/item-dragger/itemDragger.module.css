@@ -1,0 +1,51 @@
+.containerItemDragger {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.itemDragger {
+  display: flex;
+  width: 100%;
+  border: 2px dashed #ccc; 
+}
+
+.itemDraggerError {
+  display: flex;
+  width: 100%;
+  color: red;
+  border: 2px dashed red; 
+}
+
+.itemDraggerIcon {
+  padding: 10px;
+  color: #d0b6b6;
+}
+
+.itemDraggerIcon svg {
+  width: 50px;
+  height: 50px;
+}
+
+.itemDraggerContent {
+  flex-grow: 1;
+}
+
+.itemDraggerContent p {
+  margin: 0;
+}
+
+.itemDraggerActions {
+  padding-top: 30px;
+}
+
+.itemDraggerActions button {
+  height: 45px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.itemDraggerActions button svg {
+  width: 25px;
+  height: 25px;
+}

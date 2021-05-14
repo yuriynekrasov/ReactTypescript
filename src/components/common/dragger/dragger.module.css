@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperDragger {
+  height: 0%;
+  width: 60%;
+}
+
+.dragger .ant-upload-drag-container {
+  padding: 0 !important;
+}
+
+.draggerUploadText {
+  margin-bottom: 10px !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(114, 114, 114)
+}
+
+.buttonUploadFile {
+  height: auto;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background: rgb(179, 29, 29);
+  color: white;
+}
+
+.buttonUploadFile span {
+  padding: 5px 10px;
+}
